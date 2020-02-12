@@ -156,7 +156,8 @@ def search_results(request, template_name="inventory/search_results.html"):
 
 ############################################################
 # Name: get_items
-# Desc: 
+# Desc: Populates the dropdown search feature. Gathers both
+# the item name and it's corresponding primary key
 ############################################################
 def get_items(request):
     if request.is_ajax():
